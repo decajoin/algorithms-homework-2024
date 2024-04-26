@@ -30,7 +30,8 @@ vector<vector<int>> findEquivalentClasses(const vector<string>& strings) {
 
 int main() {
 
-    string filename = "Letter.txt";
+    string filename = "./dataset/Letter.txt";
+
     ifstream file(filename);
     if (!file.is_open()) {
         cerr << "Error: Unable to open file!" << endl;
