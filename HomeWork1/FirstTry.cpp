@@ -30,6 +30,7 @@ vector<vector<int>> findEquivalentClasses(const vector<string>& strings) {
 
 int main() {
 
+    // 全部测试数据集
     vector<string> files = {"./dataset/Vote.txt", "./dataset/satlog.txt", "./dataset/Mushroom.txt", "./dataset/Letter.txt"};
     // string filename = "./dataset/Letter.txt";
 
