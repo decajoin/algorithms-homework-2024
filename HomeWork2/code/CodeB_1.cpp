@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    ifstream file("./dataset_a/Number_2e5.txt");
+    ifstream file("./dataset_b/Number_2e5.txt");
     if (!file.is_open()) {
         cerr << "Error opening file" << endl;
         return 1;

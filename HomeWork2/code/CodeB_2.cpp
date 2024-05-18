@@ -59,7 +59,7 @@ vector<long long> find_smallest_numbers(vector<long long>& nums) {
 }
 
 int main() {
-    string filename = "./dataset_a/Number_2e5.txt";
+    string filename = "./dataset_b/Number_2e5.txt";
     ifstream inputFile(filename);
 
     if (!inputFile) {
