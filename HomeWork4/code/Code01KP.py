@@ -1,3 +1,5 @@
+import time
+
 def read_data_knapsack(filename):
     with open(filename, 'r') as file:
         lines = file.readlines()
@@ -26,20 +28,27 @@ def knapsack_dp(items, capacity):
             w -= items[i - 1][1]
 
     total_value = dp[n][capacity]
-    return knapsack, total_value, w
+    return knapsack, total_value
 
 if __name__ == "__main__":
     # 读取数据集
-    filename = "HomeWork3\code\dataset_01KP\large_scale\knapPI_1_100_1000_1"
+    filename = "HomeWork4\code\dataset_01KP\low-dimensional\\f8_l-d_kp_23_10000"
     items = read_data_knapsack(filename)
     n, capacity = items.pop(0)  # 移除数据集中的第一行，并获取物品数量和背包容量
 
+    # 计时开始
+    start_time = time.time()
+
     # 使用动态规划算法解决01背包问题
-    knapsack, total_value, remaining_capacity = knapsack_dp(items, capacity)
+    knapsack, total_value = knapsack_dp(items, capacity)
+
+    # 计时结束
+    execution_time = time.time() - start_time
 
     # 打印结果
     print("使用数据集" + filename + "进行测试")
     print("从背包中选择的物品如下:")
     for item in knapsack:
         print("价值:", item[0], "重量:", item[1])
-    print("总价值:", total_value, "总重量", capacity - remaining_capacity)
+    print("总价值:", total_value)
+    print("执行时间:", execution_time, "秒")
