@@ -52,3 +52,22 @@ Sort执行结果：
 代码执行结果：
 
 ![image-20240524150941508](https://yeyi0003.oss-cn-hangzhou.aliyuncs.com/image-20240524150941508.png)
+
+## 第四次作业
+
+> 使用动态规划算法完成上一次作业（选择TSP问题或01KP问题中的一个）并完成实验报告，实验报告中要体现暴力算法，动态规划算法，贪心算法三种算法解决同一个问题之间的比较。
+>
+> *我选择的是01KP问题*
+
+**暴力算法代码执行结果**
+
+![img](https://yeyi0003.oss-cn-hangzhou.aliyuncs.com/clip_image002.jpg)
+
+**动态规划算法代码执行结果**
+
+![img](https://yeyi0003.oss-cn-hangzhou.aliyuncs.com/clip_image004.jpg)
+
+**贪心算法代码执行结果**
+
+![img](https://yeyi0003.oss-cn-hangzhou.aliyuncs.com/clip_image006.jpg)
+
