@@ -2,3 +2,4 @@
 *.exe
 # Ignore .vscode folder
 .vscode/
+.tmp
