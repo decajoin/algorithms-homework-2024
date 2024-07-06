@@ -103,8 +103,8 @@ void save_vertex_cover(const string &filename, const unordered_set<int> &vertex_
 }
 
 int main() {
-	string hypergraph_filename = "D:/CodeSpace/C++/AlgorithmsHomeWork/FinalAssignment/code/dataset_B/min_25_20.txt";
-	string output_filename = "D:/CodeSpace/C++/AlgorithmsHomeWork/FinalAssignment/code/dataset_B/minimal_cover.txt";
+	string hypergraph_filename = "D:/Code/C++/AlgorithmsHomeWork/FinalAssignment/code/dataset_B/min_35_10.txt";
+	string output_filename = "D:/Code/C++/AlgorithmsHomeWork/FinalAssignment/code/dataset_B/minimal_cover.txt";
 
 	vector<unordered_set<int>> hypergraph = read_hypergraph(hypergraph_filename);
 

@@ -9,10 +9,10 @@ def generate_hypergraph(num_vertices, num_edges, min_edge_size, max_edge_size, f
 
 # Parameters for the hypergraph
 num_vertices = 25
-num_edges = 20
+num_edges = 10
 min_edge_size = 2
 max_edge_size = 5
-filename = 'FinalAssignment/code/dataset_B/min_25_20.txt'
+filename = 'FinalAssignment/code/dataset_B/min_35_10.txt'
 
 # Generate the hypergraph
 generate_hypergraph(num_vertices, num_edges, min_edge_size, max_edge_size, filename)
